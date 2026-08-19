@@ -661,14 +661,10 @@ elif filtered:
 
 @st.dialog("You found it")
 def show_easter_egg():
-    st.markdown("## Ohh... I thought you'd never find it. 👀")
-
-    st.write("You made it all the way down here.")
-
+    st.markdown("## You made it all the way down here.. 👀")
     st.write(
         "I hope this little detail made you smile."
     )
-
     st.write(
         "And maybe, if things work out, "
         "I hope we get a chance to work together. ✦"
